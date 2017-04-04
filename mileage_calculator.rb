@@ -44,3 +44,9 @@ get "/?" do
   
   erb :index
 end
+
+get '/upload/photo' do
+	@title = "Add User"
+
+	erb :upload_photo
+end
